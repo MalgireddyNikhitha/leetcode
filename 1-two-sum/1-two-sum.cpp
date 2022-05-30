@@ -10,7 +10,7 @@ public:
                     if(nums[i]+nums[j]==target)
                        {
                            r={i,j};
-                        return r;
+                        
                        }
                 }
             }
