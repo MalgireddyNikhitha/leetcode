@@ -11,9 +11,7 @@ public:
         {
             num=num*10;
             if(num>2147483647)
-            {
                 return false;
-            }
             num=num+(x%10);
             x=x/10;
         }
